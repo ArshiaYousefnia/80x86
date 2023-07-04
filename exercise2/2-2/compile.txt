@@ -1,0 +1,1 @@
+nasm -f elf32 average.asm -o average.o && gcc -m32 average.o ex2-2.c -o program
